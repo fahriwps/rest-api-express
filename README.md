@@ -33,5 +33,5 @@ You can use a REST client tool (Postman or Katalon) or a browser to test the API
 
 ## Live API URL
 
-The API is deployed and accessible at: 
+The API is deployed and accessible at: https://rest-api-express-fahri.up.railway.app/transactions
 
