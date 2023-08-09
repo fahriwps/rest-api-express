@@ -1,0 +1,35 @@
+GET http://localhost:8080/transactions/
+Accept: application/json
+
+###
+POST http://localhost:8080/transactions
+Content-Type: application/json
+
+{
+  "id": 2,
+  "from": "Fahri",
+  "recipients": "Mark Z",
+  "amount": 5000,
+  "description": "interest for buying FB"
+}
+
+###
+GET http://localhost:8080/transactions/2
+Accept: application/json
+
+###
+PUT http://localhost:8080/transactions/1
+Content-Type: application/json
+
+{
+  "amount": 1000,
+  "description": "final offer to buy X company"
+}
+
+###
+PATCH http://localhost:8080/transactions/2
+Content-Type: application/json
+
+{
+  "amount": 4400
+  }
