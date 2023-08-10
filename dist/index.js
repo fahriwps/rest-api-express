@@ -11,6 +11,9 @@ const app = (0, express_1.default)();
 const port = process.env.PORT;
 app.use(body_parser_1.default.json());
 const transactions = []; // For storing transactions data
+app.get('/', (req, res) => {
+    res.send("This is a simple REST API project using Express.js and TypeScript. Explore using method GET, POST, PUT, PATCH or DELETE.");
+});
 app.get('/transactions', (req, res) => {
     res.json(transactions);
 });
