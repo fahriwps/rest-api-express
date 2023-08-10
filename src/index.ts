@@ -12,6 +12,10 @@ app.use(bodyParser.json());
 
 const transactions: ITransaction[] = []; // For storing transactions data
 
+app.get('/', (req: Request, res: Response): void => {
+    res.send("This is a simple REST API project using Express.js and TypeScript. Explore using method GET, POST, PUT, PATCH or DELETE.");
+});
+
 app.get('/transactions', (req: Request, res: Response): void => {
     res.json(transactions);
 });
