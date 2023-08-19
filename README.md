@@ -1,13 +1,3 @@
-## Introduction
-
-Hi I am Fahri, a Software Engineering Student in Revou batch June 2023 and welcome to my project repository!
-
-Feel free to connect with me:
-
-<div align=center>
-  <a href="https://www.linkedin.com/in/fahriprs/"><img src="https://img.shields.io/static/v1?style=for-the-badge&message=LinkedIn&color=0A66C2&logo=LinkedIn&logoColor=FFFFFF&label=" alt="LinkedIn" /></a>
-</div>
-
 ## Description
 
 This project implements a simple REST API for managing transactions using Express JS and Typescript.
