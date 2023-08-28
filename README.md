@@ -32,8 +32,3 @@ To use each request command, please use JSON format. Example:
 ## Testing the API
 
 You can use a REST client tool (Postman, SoapUI or Katalon) or a browser to test the API endpoints.
-
-## Live API URL
-
-The API is deployed and accessible at: https://rest-api-express-fahri.up.railway.app/transactions
-
